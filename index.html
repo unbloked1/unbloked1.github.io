@@ -1623,7 +1623,7 @@
 			function displayTopGames(topData) {
 				topGameList.innerHTML = "";
 				let foundCount = 0;
-				let index = 1;
+				let index = 0;
 				const displayed = new Set();
 				while (foundCount < numTopGames && index < topData.length) {
 					const row = topData[index],
