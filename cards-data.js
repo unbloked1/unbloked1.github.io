@@ -1,4 +1,5 @@
 export default [
+  { href: './html/Boxing Random/index.html', imgSrc: 'boxing random.jpeg', name: 'Boxing Random' , 'page': 5, 'id': 761 },
   { href: './html/Volley Random/index.html', imgSrc: 'volley random.jpeg', name: 'Volley Random' , 'page': 5, 'id': 989 },
   { href: './html/Tomb of the mask/index.html', imgSrc: 'tomb of the mask.png', name: 'Tomb of the mask' , 'page': 5, 'id': 988 },
   { href: './html/Sandboxels/index.html', imgSrc: 'sandboxels.jpeg', name: 'Sandboxels' , 'page': 5, 'id': 940 },
