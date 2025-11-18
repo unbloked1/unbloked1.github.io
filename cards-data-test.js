@@ -30,7 +30,6 @@ export default [
 { href: './html/Hasty shaman/index.html', imgSrc: 'hasty shaman.jpeg', name: 'Hasty shaman' , 'page': 5, 'id': 867 },
 { href: './html/Greedy Mimic/index.html', imgSrc: 'greedy mimic.jpeg', name: 'Greedy Mimic' , 'page': 5, 'id': 859 },
 { href: './html/Golf Orbit/index.html', imgSrc: 'golf orbit.jpeg', name: 'Golf Orbit' , 'page': 5, 'id': 841 },
-{ href: './html/Geometry Dash Lite/index.html', imgSrc: 'geometry dash lite.jpeg', name: 'Geometry Dash Lite' , 'page': 5, 'id': 813 },
 { href: './html/Fabled Conquerors/index.html', imgSrc: 'fabled conquerors.jpeg', name: 'Fabled Conquerors' , 'page': 5, 'id': 811 },
 { href: './html/Escaping the prison/index.html', imgSrc: 'escaping the prison.jpeg', name: 'Escaping the prison' , 'page': 5, 'id': 810 },
 { href: './html/Drift Hunters/index.html', imgSrc: 'drift hunters.jpeg', name: 'Drift Hunters' , 'page': 5, 'id': 798 },
