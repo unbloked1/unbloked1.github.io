@@ -1,4 +1,5 @@
 export default [
+  { href: './html/Thelast.io/index.html', imgSrc: 'thelast.io.png', name: 'Thelast.io' , 'page': 5, 'id': 986 },
   { href: './html/SSF2/index.html', imgSrc: 'SSF2.png', name: 'SSF2' , 'page': 5, 'id': 992 },
   { href: './html/Road of the dead/index.html', imgSrc: 'road of the dead.jpeg', name: 'Road of the dead' , 'page': 5, 'id': 995 },
   { href: './html/Swords and sandals/index.html', imgSrc: 'swords and sandals.jpeg', name: 'Swords and sandals' , 'page': 5, 'id': 999 },
