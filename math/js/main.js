@@ -1,18 +1,18 @@
-import { engine, scene, camera } from './core/babylon-setup.js';
-import * as utils from './core/utils.js';
+import { engine, scene, camera } from './math/core/babylon-setup.js';
+import * as utils from './math/core/utils.js';
 
-import * as cell from './systems/cell.js';
-import * as skeletal from './systems/skeletal.js';
-import * as human from './systems/human.js';
-import * as nervous from './systems/nervous.js';
-import * as cardiovascular from './systems/cardiovascular.js';
-import * as digestive from './systems/digestive.js';
-import * as respiratory from './systems/respiratory.js';
-import * as lymphatic from './systems/lymphatic.js';
-import * as endocrine from './systems/endocrine.js';
-import * as integumentary from './systems/integumentary.js';
-import * as muscular from './systems/muscular.js';
-import * as excretory from './systems/excretory.js';
+import * as cell from './math/systems/cell.js';
+import * as skeletal from './math/systems/skeletal.js';
+import * as human from './math/systems/human.js';
+import * as nervous from './math/systems/nervous.js';
+import * as cardiovascular from './math/systems/cardiovascular.js';
+import * as digestive from './math/systems/digestive.js';
+import * as respiratory from './math/systems/respiratory.js';
+import * as lymphatic from './math/systems/lymphatic.js';
+import * as endocrine from './math/systems/endocrine.js';
+import * as integumentary from './math/systems/integumentary.js';
+import * as muscular from './math/systems/muscular.js';
+import * as excretory from './math/systems/excretory.js';
 
 // Assign all imported functions to the global window object
 Object.assign(window, {

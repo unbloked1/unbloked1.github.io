@@ -1,6 +1,6 @@
-import { camera } from '../core/babylon-setup.js';
-import { updateNavigationHistory } from '../core/utils.js';
-import { createSphereBtn, importmesh, clear, clearbtns, createBasicPopup, createImagePopUp, createPanel, checkvis, showui, hidebtn, showbtn, loadPanel } from '../core/utils.js';
+import { camera } from '../math/core/babylon-setup.js';
+import { updateNavigationHistory } from '../math/core/utils.js';
+import { createSphereBtn, importmesh, clear, clearbtns, createBasicPopup, createImagePopUp, createPanel, checkvis, showui, hidebtn, showbtn, loadPanel } from '../math/core/utils.js';
 
 export function loadskeletal() {
     clear();
