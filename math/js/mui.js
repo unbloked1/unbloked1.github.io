@@ -57,9 +57,9 @@ module.exports = {
 'use strict';
 
 
-var jqLite = require('./lib/jqLite'),
-    util = require('./lib/util'),
-    animationHelpers = require('./lib/animationHelpers'),
+var jqLite = require('./math/lib/jqLite'),
+    util = require('./math/lib/util'),
+    animationHelpers = require('./math/lib/animationHelpers'),
     attrKey = 'data-mui-toggle',
     attrSelector = '[data-mui-toggle="dropdown"]',
     openClass = 'mui--is-open',
@@ -209,7 +209,7 @@ module.exports = {
   }
 };
 
-},{"./lib/animationHelpers":4,"./lib/jqLite":6,"./lib/util":7}],4:[function(require,module,exports){
+},{"./math/lib/animationHelpers":4,"./math/lib/jqLite":6,"./math/lib/util":7}],4:[function(require,module,exports){
 /**
  * MUI CSS/JS animation helper module
  * @module lib/animationHelpers
@@ -217,8 +217,8 @@ module.exports = {
 
 'use strict';
 
-var jqLite = require('./jqLite'),
-    util = require('./util'),
+var jqLite = require('./math/jqLite'),
+    util = require('./math/util'),
     animationEvents = 'animationstart mozAnimationStart webkitAnimationStart',
     animationCallbacks = {};
 
@@ -312,7 +312,7 @@ module.exports = {
   onAnimationStart: onAnimationStartFn
 }
 
-},{"./jqLite":6,"./util":7}],5:[function(require,module,exports){
+},{"./math/jqLite":6,"./math/util":7}],5:[function(require,module,exports){
 /**
  * MUI CSS/JS form helpers module
  * @module lib/forms.py
@@ -320,7 +320,7 @@ module.exports = {
 
 'use strict';
 
-var jqLite = require('./jqLite');
+var jqLite = require('./math/jqLite');
 
 
 /**
@@ -372,7 +372,7 @@ module.exports = {
   getMenuPositionalCSS: getMenuPositionalCSSFn
 };
 
-},{"./jqLite":6}],6:[function(require,module,exports){
+},{"./math/jqLite":6}],6:[function(require,module,exports){
 /**
  * MUI CSS/JS jqLite module
  * @module lib/jqLite
@@ -781,8 +781,8 @@ module.exports = {
 'use strict';
 
 
-var config = require('../config'),
-    jqLite = require('./jqLite'),
+var config = require('../math/config'),
+    jqLite = require('./math/jqLite'),
     scrollLock = 0,
     scrollLockCls = 'mui-scroll-lock',
     scrollLockPos,
@@ -1068,7 +1068,7 @@ module.exports = {
   supportsPointerEvents: supportsPointerEventsFn
 };
 
-},{"../config":2,"./jqLite":6}],8:[function(require,module,exports){
+},{"../math/config":2,"./math/jqLite":6}],8:[function(require,module,exports){
 /**
  * MUI CSS/JS overlay module
  * @module overlay
@@ -1077,8 +1077,8 @@ module.exports = {
 'use strict';
 
 
-var util = require('./lib/util'),
-    jqLite = require('./lib/jqLite'),
+var util = require('./math/lib/util'),
+    jqLite = require('./math/lib/jqLite'),
     overlayId = 'mui-overlay',
     bodyClass = 'mui--overflow-hidden',
     iosRegex = /(iPad|iPhone|iPod)/g,
@@ -1274,7 +1274,7 @@ function onClick(ev) {
 /** Define module API */
 module.exports = overlayFn;
 
-},{"./lib/jqLite":6,"./lib/util":7}],9:[function(require,module,exports){
+},{"./math/lib/jqLite":6,"./math/lib/util":7}],9:[function(require,module,exports){
 /**
  * MUI CSS/JS ripple module
  * @module ripple
@@ -1283,9 +1283,9 @@ module.exports = overlayFn;
 'use strict';
 
 
-var jqLite = require('./lib/jqLite'),
-    util = require('./lib/util'),
-    animationHelpers = require('./lib/animationHelpers'),
+var jqLite = require('./math/lib/jqLite'),
+    util = require('./math/lib/util'),
+    animationHelpers = require('./math/lib/animationHelpers'),
     supportsTouch = 'ontouchstart' in document.documentElement,
     mouseDownEvents = (supportsTouch) ? 'touchstart' : 'mousedown',
     mouseUpEvents = (supportsTouch) ? 'touchend' : 'mouseup mouseleave';
@@ -1398,7 +1398,7 @@ module.exports = {
   }
 };
 
-},{"./lib/animationHelpers":4,"./lib/jqLite":6,"./lib/util":7}],10:[function(require,module,exports){
+},{"./math/lib/animationHelpers":4,"./math/lib/jqLite":6,"./math/lib/util":7}],10:[function(require,module,exports){
 /**
  * MUI CSS/JS select module
  * @module forms/select
@@ -1407,10 +1407,10 @@ module.exports = {
 'use strict';
 
 
-var jqLite = require('./lib/jqLite'),
-    util = require('./lib/util'),
-    animationHelpers = require('./lib/animationHelpers'),
-    formlib = require('./lib/forms'),
+var jqLite = require('./math/lib/jqLite'),
+    util = require('./math/lib/util'),
+    animationHelpers = require('./math/lib/animationHelpers'),
+    formlib = require('./math/lib/forms'),
     wrapperClass = 'mui-select',
     cssSelector = '.mui-select > select',
     menuClass = 'mui-select__menu',
@@ -1880,7 +1880,7 @@ module.exports = {
   }
 };
 
-},{"./lib/animationHelpers":4,"./lib/forms":5,"./lib/jqLite":6,"./lib/util":7}],11:[function(require,module,exports){
+},{"./math/lib/animationHelpers":4,"./math/lib/forms":5,"./math/lib/jqLite":6,"./math/lib/util":7}],11:[function(require,module,exports){
 /**
  * MUI CSS/JS tabs module
  * @module tabs
@@ -1889,9 +1889,9 @@ module.exports = {
 'use strict';
 
 
-var jqLite = require('./lib/jqLite'),
-    util = require('./lib/util'),
-    animationHelpers = require('./lib/animationHelpers'),
+var jqLite = require('./math/lib/jqLite'),
+    util = require('./math/lib/util'),
+    animationHelpers = require('./math/lib/animationHelpers'),
     attrKey = 'data-mui-toggle',
     attrSelector = '[' + attrKey + '="tab"]',
     controlsAttrKey = 'data-mui-controls',
@@ -2045,7 +2045,7 @@ module.exports = {
   }
 };
 
-},{"./lib/animationHelpers":4,"./lib/jqLite":6,"./lib/util":7}],12:[function(require,module,exports){
+},{"./math/lib/animationHelpers":4,"./math/lib/jqLite":6,"./math/lib/util":7}],12:[function(require,module,exports){
 /**
  * MUI CSS/JS form-control module
  * @module forms/form-control
@@ -2054,9 +2054,9 @@ module.exports = {
 'use strict';
 
 
-var jqLite = require('./lib/jqLite'),
-    util = require('./lib/util'),
-    animlib = require('./lib/animationHelpers'),
+var jqLite = require('./math/lib/jqLite'),
+    util = require('./math/lib/util'),
+    animlib = require('./math/lib/animationHelpers'),
     cssSelector = '.mui-textfield > input, .mui-textfield > textarea',
     floatingLabelClass = 'mui-textfield--float-label';
 
@@ -2169,4 +2169,4 @@ module.exports = {
   }
 };
 
-},{"./lib/animationHelpers":4,"./lib/jqLite":6,"./lib/util":7}]},{},[1]);
+},{"./math/lib/animationHelpers":4,"./math/lib/jqLite":6,"./math/lib/util":7}]},{},[1]);
