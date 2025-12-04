@@ -1,5 +1,4 @@
 export default [
-{ href: './html/Buckshot Roulette/index.html', imgSrc: 'buckshot roulette.jpeg', name: 'Buckshot Roulette' , 'page': 5, 'id': 763 },
 { href: './html/Killer/index.html', imgSrc: 'Killer.jpg', name: 'Killer' , 'page': 5, 'id': 901 },
 { href: './html/Hollow knight degraded/index.html', imgSrc: 'hollow knight degraded.jpeg', name: 'Hollow knight degraded' , 'page': 5, 'id': 874 },
 { href: './html/Fabled Conquerors/index.html', imgSrc: 'fabled conquerors.jpeg', name: 'Fabled Conquerors' , 'page': 5, 'id': 811 },
