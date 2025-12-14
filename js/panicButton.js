@@ -7,7 +7,11 @@ if(panicRedirectFromStorage) {
     panicUrlEdited = panicRedirectFromStorage.replace(/^https?:\/\//, '');
 }
 
-document.addEventListener('keydown', function(e) {
+document.addEventListener('keydown', function (e) {
+    if (e.ctrlKey && ['c', 'v', 'r'].includes(e.key.toLowerCase())) {
+        return;
+    }
+
     if (e.ctrlKey || e.altKey || e.metaKey) {
         e.preventDefault();
         e.stopPropagation();
